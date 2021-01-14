@@ -7342,3 +7342,9 @@ Stack trace:
 2021-01-14 06:32:59 pid:99114 Workerman[server.php] stopping ...
 2021-01-14 06:32:59 pid:99114 Workerman[server.php] has been stopped
 2021-01-14 06:33:23 pid:99144 Workerman[server.php] start in DEBUG mode
+2021-01-14 07:26:52 pid:99144 Workerman[server.php] stopping ...
+2021-01-14 07:26:52 pid:99144 Workerman[server.php] has been stopped
+2021-01-14 07:26:53 pid:99463 Workerman[server.php] start in DEBUG mode
+2021-01-14 08:23:39 pid:99463 Workerman[server.php] stopping ...
+2021-01-14 08:23:39 pid:99463 Workerman[server.php] has been stopped
+2021-01-14 08:23:50 pid:99756 Workerman[test.php] start in DEBUG mode

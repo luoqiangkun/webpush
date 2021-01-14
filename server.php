@@ -27,6 +27,7 @@ $worker->onWorkerStart = function($worker){
 $worker->uidConnections = array();
 // 当有客户端发来消息时执行的回调函数
 $worker->onMessage = function($connection, $data) {
+    var_dump(1);
     global $worker;
     // 判断当前客户端是否已经验证,既是否设置了uid
     if(!isset($connection->uid)) {
