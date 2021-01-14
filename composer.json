@@ -1,0 +1,13 @@
+{
+    "name": "luoqiangkun/websocket",
+    "description": "a websocket project demo",
+    "authors": [
+        {
+            "name": "luoqiangkun",
+            "email": "1051211357@qq.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^4.0"
+    }
+}
