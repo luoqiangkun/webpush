@@ -2,12 +2,13 @@
 use Workerman\Worker;
 //use Workerman\Lib\Timer;
 require 'vendor/autoload.php';
+//加载配置文件
+$config = include_once __DIR__."/config.php";
 // 注意：这里与上个例子不同，使用的是websocket协议
-$worker = new Worker("websocket://0.0.0.0:2000");
+$worker = new Worker($config['websocket']);
 // 启动1个进程对外提供服务
 $worker->count = 1;
 $worker->onWorkerStart = function($worker){
-
     // 开启一个内部端口，方便内部系统推送数据，Text协议格式 文本+换行符
     $innerTextWorker = new Worker('text://0.0.0.0:5678');
     $innerTextWorker->onMessage = function($connection, $buffer) {

@@ -6993,3 +6993,352 @@ Stack trace:
 2021-01-14 06:03:18 pid:98552 Workerman[server.php] stopping ...
 2021-01-14 06:03:18 pid:98552 Workerman[server.php] has been stopped
 2021-01-14 06:03:20 pid:98609 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:13:12 pid:98609 Workerman[server.php] stopping ...
+2021-01-14 06:13:12 pid:98609 Workerman[server.php] has been stopped
+2021-01-14 06:13:14 pid:98749 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:13:14 pid:98750 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(542): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#6 {main}
+2021-01-14 06:13:15 pid:98750 Worker[98750] process terminated
+2021-01-14 06:13:15 pid:98749 worker[none:98750] exit with status 64000
+2021-01-14 06:13:15 pid:98753 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:16 pid:98753 Worker[98753] process terminated
+2021-01-14 06:13:16 pid:98749 worker[none:98753] exit with status 64000
+2021-01-14 06:13:16 pid:98755 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:17 pid:98755 Worker[98755] process terminated
+2021-01-14 06:13:17 pid:98749 worker[none:98755] exit with status 64000
+2021-01-14 06:13:17 pid:98756 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:18 pid:98756 Worker[98756] process terminated
+2021-01-14 06:13:18 pid:98749 worker[none:98756] exit with status 64000
+2021-01-14 06:13:18 pid:98757 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:19 pid:98757 Worker[98757] process terminated
+2021-01-14 06:13:19 pid:98749 worker[none:98757] exit with status 64000
+2021-01-14 06:13:19 pid:98758 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:20 pid:98758 Worker[98758] process terminated
+2021-01-14 06:13:20 pid:98749 worker[none:98758] exit with status 64000
+2021-01-14 06:13:20 pid:98759 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:21 pid:98759 Worker[98759] process terminated
+2021-01-14 06:13:21 pid:98749 worker[none:98759] exit with status 64000
+2021-01-14 06:13:21 pid:98760 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:22 pid:98760 Worker[98760] process terminated
+2021-01-14 06:13:22 pid:98749 worker[none:98760] exit with status 64000
+2021-01-14 06:13:22 pid:98761 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:23 pid:98761 Worker[98761] process terminated
+2021-01-14 06:13:23 pid:98749 worker[none:98761] exit with status 64000
+2021-01-14 06:13:23 pid:98762 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:24 pid:98762 Worker[98762] process terminated
+2021-01-14 06:13:24 pid:98749 worker[none:98762] exit with status 64000
+2021-01-14 06:13:24 pid:98763 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:25 pid:98763 Worker[98763] process terminated
+2021-01-14 06:13:25 pid:98749 worker[none:98763] exit with status 64000
+2021-01-14 06:13:25 pid:98764 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:26 pid:98764 Worker[98764] process terminated
+2021-01-14 06:13:26 pid:98749 worker[none:98764] exit with status 64000
+2021-01-14 06:13:26 pid:98765 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:27 pid:98765 Worker[98765] process terminated
+2021-01-14 06:13:27 pid:98749 worker[none:98765] exit with status 64000
+2021-01-14 06:13:27 pid:98766 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:28 pid:98766 Worker[98766] process terminated
+2021-01-14 06:13:28 pid:98749 worker[none:98766] exit with status 64000
+2021-01-14 06:13:28 pid:98767 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:29 pid:98767 Worker[98767] process terminated
+2021-01-14 06:13:29 pid:98749 worker[none:98767] exit with status 64000
+2021-01-14 06:13:29 pid:98768 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:30 pid:98768 Worker[98768] process terminated
+2021-01-14 06:13:30 pid:98749 worker[none:98768] exit with status 64000
+2021-01-14 06:13:30 pid:98769 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:31 pid:98769 Worker[98769] process terminated
+2021-01-14 06:13:31 pid:98749 worker[none:98769] exit with status 64000
+2021-01-14 06:13:31 pid:98771 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:32 pid:98771 Worker[98771] process terminated
+2021-01-14 06:13:32 pid:98749 worker[none:98771] exit with status 64000
+2021-01-14 06:13:32 pid:98772 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:33 pid:98772 Worker[98772] process terminated
+2021-01-14 06:13:33 pid:98749 worker[none:98772] exit with status 64000
+2021-01-14 06:13:33 pid:98774 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:34 pid:98774 Worker[98774] process terminated
+2021-01-14 06:13:34 pid:98749 worker[none:98774] exit with status 64000
+2021-01-14 06:13:34 pid:98775 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:35 pid:98775 Worker[98775] process terminated
+2021-01-14 06:13:35 pid:98749 worker[none:98775] exit with status 64000
+2021-01-14 06:13:35 pid:98776 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:36 pid:98776 Worker[98776] process terminated
+2021-01-14 06:13:36 pid:98749 worker[none:98776] exit with status 64000
+2021-01-14 06:13:36 pid:98777 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:37 pid:98777 Worker[98777] process terminated
+2021-01-14 06:13:37 pid:98749 worker[none:98777] exit with status 64000
+2021-01-14 06:13:37 pid:98781 ArgumentCountError: Too few arguments to function {closure}(), 1 passed in /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php on line 2415 and exactly 2 expected in /Users/luoqiangkun/Sites/websocket/server.php:12
+Stack trace:
+#0 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(2415): {closure}(Object(Workerman\Worker))
+#1 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#2 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1385): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1359): Workerman\Worker::forkWorkersForLinux()
+#4 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#5 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#6 /Users/luoqiangkun/Sites/websocket/vendor/workerman/workerman/Worker.php(544): Workerman\Worker::monitorWorkers()
+#7 /Users/luoqiangkun/Sites/websocket/server.php(70): Workerman\Worker::runAll()
+#8 {main}
+2021-01-14 06:13:37 pid:98781 Worker[98781] process terminated
+2021-01-14 06:13:37 pid:98749 Workerman[server.php] stopping ...
+2021-01-14 06:13:37 pid:98749 worker[none:98781] exit with status 64000
+2021-01-14 06:13:37 pid:98749 Workerman[server.php] has been stopped
+2021-01-14 06:13:39 pid:98782 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:16:06 pid:98782 Workerman[server.php] stopping ...
+2021-01-14 06:16:06 pid:98782 Workerman[server.php] has been stopped
+2021-01-14 06:16:08 pid:98807 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:16:34 pid:98807 Workerman[server.php] stopping ...
+2021-01-14 06:16:34 pid:98807 Workerman[server.php] has been stopped
+2021-01-14 06:16:35 pid:98817 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:16:56 pid:98817 Workerman[server.php] stopping ...
+2021-01-14 06:16:56 pid:98817 Workerman[server.php] has been stopped
+2021-01-14 06:18:16 pid:98859 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:21:46 pid:98859 Workerman[server.php] stopping ...
+2021-01-14 06:21:46 pid:98859 Workerman[server.php] has been stopped
+2021-01-14 06:21:47 pid:98916 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:23:17 pid:98916 Workerman[server.php] stopping ...
+2021-01-14 06:23:17 pid:98916 Workerman[server.php] has been stopped
+2021-01-14 06:23:19 pid:98943 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:24:10 pid:98943 Workerman[server.php] stopping ...
+2021-01-14 06:24:10 pid:98943 Workerman[server.php] has been stopped
+2021-01-14 06:24:12 pid:98965 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:26:20 pid:98965 Workerman[server.php] stopping ...
+2021-01-14 06:26:20 pid:98965 Workerman[server.php] has been stopped
+2021-01-14 06:26:21 pid:98989 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:30:52 pid:98989 Workerman[server.php] stopping ...
+2021-01-14 06:30:52 pid:98989 Workerman[server.php] has been stopped
+2021-01-14 06:30:53 pid:99064 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:31:17 pid:99064 Workerman[server.php] stopping ...
+2021-01-14 06:31:17 pid:99064 Workerman[server.php] has been stopped
+2021-01-14 06:31:18 pid:99089 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:31:53 pid:99089 Workerman[server.php] stopping ...
+2021-01-14 06:31:53 pid:99089 Workerman[server.php] has been stopped
+2021-01-14 06:31:55 pid:99114 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:32:59 pid:99114 Workerman[server.php] stopping ...
+2021-01-14 06:32:59 pid:99114 Workerman[server.php] has been stopped
+2021-01-14 06:33:23 pid:99144 Workerman[server.php] start in DEBUG mode
