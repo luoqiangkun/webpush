@@ -6980,3 +6980,16 @@ Stack trace:
 2021-01-13 10:43:02 pid:96275 Workerman[server.php] start in DEBUG mode
 2021-01-13 11:05:29 pid:96275 Workerman[server.php] stopping ...
 2021-01-13 11:05:29 pid:96275 Workerman[server.php] has been stopped
+2021-01-14 03:28:17 pid:97580 Workerman[server.php] start in DEBUG mode
+2021-01-14 05:59:20 pid:97580 Workerman[server.php] stopping ...
+2021-01-14 05:59:35 pid:98540 Workerman[server.php] start in DEBUG mode
+2021-01-14 05:59:35 pid:98540 Workerman[server.php] already running
+2021-01-14 05:59:42 pid:98546 Workerman[server.php] stop 
+2021-01-14 05:59:42 pid:98546 Workerman[server.php] is stopping ...
+2021-01-14 05:59:42 pid:97580 Workerman[server.php] stopping ...
+2021-01-14 05:59:42 pid:97580 Workerman[server.php] has been stopped
+2021-01-14 05:59:42 pid:98546 Workerman[server.php] stop success
+2021-01-14 05:59:54 pid:98552 Workerman[server.php] start in DEBUG mode
+2021-01-14 06:03:18 pid:98552 Workerman[server.php] stopping ...
+2021-01-14 06:03:18 pid:98552 Workerman[server.php] has been stopped
+2021-01-14 06:03:20 pid:98609 Workerman[server.php] start in DEBUG mode

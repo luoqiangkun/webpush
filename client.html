@@ -10,10 +10,11 @@
     //假设服务端ip为127.0.0.1
     ws = new WebSocket("ws://127.0.0.1:2000");
     ws.onopen = function() {
+        alert(2)
         ws.send(uid);
     };
     ws.onmessage = function(e) {
-       alert(e.data)
+       alert(2)
     };
 </script>
 </body>
